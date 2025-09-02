@@ -2,6 +2,7 @@
 
 TaskForge is a comprehensive task management application designed to help individuals and teams organize, prioritize, and collaborate on tasks efficiently. It features user authentication, task CRUD operations, sharing capabilities, and AI-driven insights for task prioritization and categorization using natural language processing.
 
+---
 ## Features
 
 - **User Authentication**: Secure registration and login with JWT.
@@ -10,6 +11,7 @@ TaskForge is a comprehensive task management application designed to help indivi
 - **Collaboration**: Share tasks with other users for joint editing.
 - **Responsive UI**: Modern, intuitive interface built with React and Tailwind CSS.
 - **Backend API**: Robust Express server with MongoDB for data persistence.
+---
 
 ## Tech Stack
 
@@ -18,7 +20,7 @@ TaskForge is a comprehensive task management application designed to help indivi
 - **Authentication**: JWT, Bcrypt
 - **NLP/AI**: nlp-compromise for text analysis
 - **Other**: dotenv for environment variables
-
+---
 ## Installation
 
 1. Clone the repository:
@@ -31,19 +33,24 @@ git clone https://github.com/yourusername/TaskForge.git
 4. Start the backend: `cd server && npm start`
 5. Start the frontend: `cd client && npm start`
 6. Open http://localhost:3000 in your browser.
-
+---
+## Project Structure
+- https://github.com/AmSh4/TaskForge/blob/main/Structure.md
+---
 ## Usage
 
 - Register or login to access the dashboard.
 - Create tasks and see AI suggestions in action.
 - Share tasks by adding user emails.
-
+---
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
 
+---
 ## License
 
 MIT
+
 
 
